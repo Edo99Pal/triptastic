@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/triptastic/static/css/main.56a6711a.css",
+    "main.js": "/triptastic/static/js/main.2afcc142.js",
+    "static/js/787.dfa8bea5.chunk.js": "/triptastic/static/js/787.dfa8bea5.chunk.js",
+    "static/media/pexels-alex-azabache-3757144.jpg": "/triptastic/static/media/pexels-alex-azabache-3757144.2cf4fefc8c4cd1922c2c.jpg",
+    "static/media/paris.jpg": "/triptastic/static/media/paris.47af7f840c4aa6796a6c.jpg",
+    "static/media/barcellona.jpg": "/triptastic/static/media/barcellona.7f1106ec23b13903fd19.jpg",
+    "static/media/pexels-andrea-piacquadio-3830880.jpg": "/triptastic/static/media/pexels-andrea-piacquadio-3830880.7c8b715878bd67f73e5f.jpg",
+    "static/media/pexels-pixabay-290386.jpg": "/triptastic/static/media/pexels-pixabay-290386.bb63077933ccee037dc2.jpg",
+    "static/media/pexels-oleksandr-pidvalnyi-1008155.jpg": "/triptastic/static/media/pexels-oleksandr-pidvalnyi-1008155.00e7d488fb22d4adc99f.jpg",
+    "static/media/richard.jpg": "/triptastic/static/media/richard.d0c85cde27ee10f807f4.jpg",
+    "static/media/lara.jpg": "/triptastic/static/media/lara.6d9fcbc5b3dc21d76ef3.jpg",
+    "static/media/pexels-dominika-gregušová-672532.jpg": "/triptastic/static/media/pexels-dominika-gregušová-672532.ddfb192980e6e68f975f.jpg",
+    "static/media/justin.jpg": "/triptastic/static/media/justin.b840035b0e881645ad82.jpg",
+    "static/media/pexels-pixabay-2363.jpg": "/triptastic/static/media/pexels-pixabay-2363.cb3eba53bafc57cc6ac9.jpg",
+    "static/media/london.jpg": "/triptastic/static/media/london.ca017c6abd77aabc3aa9.jpg",
+    "index.html": "/triptastic/index.html",
+    "main.56a6711a.css.map": "/triptastic/static/css/main.56a6711a.css.map",
+    "main.2afcc142.js.map": "/triptastic/static/js/main.2afcc142.js.map",
+    "787.dfa8bea5.chunk.js.map": "/triptastic/static/js/787.dfa8bea5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56a6711a.css",
+    "static/js/main.2afcc142.js"
+  ]
+}
