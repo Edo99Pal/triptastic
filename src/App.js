@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import Header from './components/header/header.component';
+
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
 import './App.css';
+import FirstSection from './components/first-section/first.component';
+import SecondSection from './components/second-section/second-component';
+import ThirdSection from './components/third-section/third.component';
+import FourthSection from './components/fourth-section/fourth.component';
+import FifthSection from './components/fifth-section/fifth.component';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header></Header>
+      <FirstSection/>
+      <SecondSection/>
+      <ThirdSection/>
+      <FourthSection/>
+      <FifthSection/>
     </div>
   );
 }

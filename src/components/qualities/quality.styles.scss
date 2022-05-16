@@ -1,0 +1,20 @@
+.quality {
+    margin-top: 6em;
+    background-color:rgba(255, 255, 255, .8);
+    width: 20vw;
+    border-radius: 1em;
+    padding: 1em;
+    min-width: 300px;
+    i {
+        font-size: 5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        background-image: linear-gradient(to right, rgba(247, 146, 86, .8), rgba(237, 107, 90, .8));
+        color: transparent;
+        background-clip: text;
+    }
+    p {
+        text-align: justify;
+    }
+    
+}

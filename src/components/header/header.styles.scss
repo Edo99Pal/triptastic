@@ -1,0 +1,56 @@
+header {
+    height: 90vh;
+    background-image: linear-gradient(to right, rgba(0,0,0,.8), rgba(0,0,0,.8)),url('../../images/pexels-oleksandr-pidvalnyi-1008155.jpg');
+    background-size: cover;
+    position: relative;
+}
+.logo {
+    animation: appear linear 1s;
+    background-image: linear-gradient(to right, #F79256, #ED6A5A);
+    position: absolute;
+    top: 10vh;
+    left: 60vw;
+    font-size: 3em;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    text-align: center;
+    padding: .2em;
+    display: flex;
+    flex-direction: column;
+    transition: all .3s;
+    &:hover {
+        i::after {
+           content: "";
+           background-image: linear-gradient(to right, #F79256, #ED6A5A);
+           position: absolute;
+           font-size: 6em;
+
+        }
+    }
+    h1 {
+        font-family: "Indie Flower", cursive;
+        font-size: 1.5em;
+        margin-top: 1em;
+    }
+    span {
+        color: white;
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1000px) {
+    .logo {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

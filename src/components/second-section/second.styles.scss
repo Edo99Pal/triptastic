@@ -1,0 +1,15 @@
+.second-section {
+    background-image: url("../../images/pexels-alex-azabache-3757144.jpg");
+    min-height: 90vh;
+    margin-top: 6em;
+    padding: 6em;
+    background-image: linear-gradient(to right, rgba(247, 146, 86, .8), rgba(237, 107, 90, .8)), url("../../images/pexels-pixabay-290386.jpg");
+    background-size: cover;
+    .container {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

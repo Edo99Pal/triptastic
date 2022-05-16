@@ -1,0 +1,59 @@
+.first-section {
+    width: 40vw;
+    position: relative;
+    left: 3em;
+    .first-section-text {
+        margin-top: 2em;
+        p {
+            font-size: 1.5em;
+            text-align: justify;
+        }
+    }
+    .first-section-images {
+        position: relative;
+        img {
+            width: 30vw;
+            min-width: 300px;
+            position: absolute;
+            right: 3em;
+            transition: all .4s;
+            &:hover {
+                z-index: 1000;
+                outline: 1em solid #ED6A5A;
+                outline-offset: 1em;
+            }
+        }
+        #first-image {
+            top: 5em;
+            left: 35em;
+        }
+        #second-image {
+            top: 3em;
+            left: 10em;
+        }
+        #third-image {
+            top: 8em;
+            left: 25em;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    #first-image {
+        display: none;
+    }
+    #second-image {
+        display: none;
+    }
+    #third-image {
+        display: none;
+    }
+    .first-section {
+        p {
+            width: 80vw;
+        }
+        h2 {
+            width: 80vw;
+        }
+    }
+}
