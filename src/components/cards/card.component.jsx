@@ -12,7 +12,7 @@ const Card = props => (
                 </ul>
             </div>
             <div className="card back-card">
-                <h3>€{ props.price.toFixed(2) }</h3>
+                <h3>€{ props.price }</h3>
                 <a href="#">BUY</a>
             </div>
         </div>

@@ -8,7 +8,7 @@ const Review = props => (
             <img src={props.picture} alt={props.name}/>
         </div>
         <h3>{props.name}</h3>
-        <p>{props.description}</p>
+        <em>{props.description}</em>
     </div>
 )
 
