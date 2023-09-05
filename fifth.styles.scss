@@ -1,0 +1,106 @@
+.fifth-section {
+    width: 100vw;
+    display: flex;
+}
+.color {
+    width: 60vw;
+    background-image: linear-gradient(to right bottom, rgb(247, 146, 86), rgb(237, 106, 90));
+    background-repeat: no-repeat;
+}
+.form {
+    width: 40vw;
+    height: 90vh;
+    padding: 2em;
+    .contact-us {
+        color: transparent;
+        background-image: linear-gradient(to right bottom, rgb(247, 146, 86), rgb(237, 106, 90));
+        background-clip: text;
+        font-size: 3rem;
+    }
+    
+    input {
+        border: none;
+        border-bottom: 3px solid #ED6A5A;
+        outline: none;
+        width: 30vw;
+        background-color: rgba(255, 255, 255, .7)
+    }
+    .input {
+        margin-top: 2em;
+        &:hover label {
+            top: 20px;
+        }
+    }
+}
+
+button {
+    padding: 1em 3em;
+    color: #ED6A5A;
+    border-radius: 2em;
+    border: 3px solid #ED6A5A;
+    float: right;
+    margin-top: 2em;
+    transition: all .5s;
+    &:hover {
+        color: white;
+        background-color: #ED6A5A;
+    }
+}
+
+
+.radio-group {
+    width: 49%;
+    margin-top: 20px;
+    display: block;
+    .radio-input {
+        display: none;
+    }
+    .radio-label {
+        font-size: 1.5rem;
+        cursor: pointer;
+        position: relative;
+        padding-left: 4.5rem;
+    }
+    .radio-button {
+        height: 2rem;
+        width: 2rem;
+        border: 5px solid #ED6A5A;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: -.4rem;
+        &::after {
+            content: "";
+            display: block;
+            height: 1rem;
+            width: 1rem;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ED6A5A;
+            opacity: 0;
+            transition: opacity .2s;
+        }
+    }
+    .radio-input:checked ~ .radio-label > .radio-button::after {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1000px) {
+    .fifth-section {
+        width: 95vw;
+    }
+    .form {
+        width: 90vw;
+        input {
+            width: 80vw;
+        }
+    }
+    .color {
+        display: none;
+    }
+}
