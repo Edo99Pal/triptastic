@@ -10,41 +10,47 @@
     background-repeat: no-repeat;
     background-size: 100vw;
     background-position-x: 2000px;
-    &:hover {
-        background-position-x: -50px;
-    }
     .propic {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 20vw;
+        overflow: hidden;
+        border-radius: 50%;
     }
     img {
         height: 300px;
         width: 300px;
-        border-radius: 50%;
+        transition: all 10s;
     }
-
     p {
         position: absolute;
         bottom: 0;
         left: 20vw;
     }
+    &:hover {
+        background-position-x: -50px;
+        img {
+            transform: scale(1.5);
+        }
+    }
 }
-
 @media (max-width: 1000px) {
     .review {
         display: block;
         width: 80vw;
-        img {
-            display: inline-block;
-            position: relative;
-            left: 25vw;
-        }
         p {
             position: relative;
             left: 0;
             width: 80vw;
         }
+    }
+}
+
+@media( max-width: 500px ) {
+    .review {
+        background-image: none;
+        padding: 1em;
+    }
+
+    .review:hover {
+        background-color: #F79256;
+        transition: all .5s;
     }
 }

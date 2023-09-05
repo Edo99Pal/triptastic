@@ -1,5 +1,6 @@
 .first-section {
     width: 40vw;
+    max-width: 100vw;
     position: relative;
     left: 3em;
     .first-section-text {
@@ -12,7 +13,7 @@
     .first-section-images {
         position: relative;
         img {
-            width: 30vw;
+            width: 25vw;
             min-width: 300px;
             position: absolute;
             right: 3em;

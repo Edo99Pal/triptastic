@@ -11,7 +11,7 @@ const FirstSection = () => (
             </div>
             <div className="first-section-images col-md-4">
                 <img src={require("../../images/pexels-andrea-piacquadio-3830880.jpg")} id="first-image"/>
-                <img src={require("../../images/pexels-dominika-gregušová-672532.jpg")} id="second-image"/>
+                <img src={require("../../images/pexels-dominika-gregusova-672532.jpg")} id="second-image"/>
                 <img src={require("../../images/pexels-pixabay-2363.jpg")} id="third-image"/>
             </div>
         </div>

@@ -56,3 +56,12 @@
         font-size: 4rem;
     }
 }
+
+@media(max-width: 500px) {
+    .back-card {
+        a, h3 {
+            position: relative;
+            right: 8%;
+        }
+    }
+}
